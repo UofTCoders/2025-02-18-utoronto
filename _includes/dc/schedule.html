@@ -62,7 +62,7 @@ The schedule for the different curricula are listed here:
   </div>
 </div>
 
-{% elsif site.curriculum == "dc-ecology" %}
+{% elsif site.curriculum == "df-ecology" %}
 <div class="row">
   <div class="col-md-6">
     <h3>Day 1</h3>
@@ -71,36 +71,19 @@ The schedule for the different curricula are listed here:
 	<td>Before starting</td>
 	<td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
       </tr>
-      <tr><td>12-1</td> <td> <a href="https://datacarpentry.github.io/R-ecology-lesson/introduction-r-rstudio.html">Intro to R</a></td></tr>
-      <tr><td>1-2</td> <td> <a href="https://datacarpentry.github.io/R-ecology-lesson/how-r-thinks-about-data.html">Working with Data</a></td></tr>
-      <tr><td>2:15-4 </td><td><a href="https://datacarpentry.github.io/R-ecology-lesson/working-with-data.html">Data Wrangling</a></td></tr>
-      <tr>
+      <tr><td>12-1</td> <td> <a href="https://datacarpentry.github.io/R-ecology-lesson/introduction-r-rstudio.html">Introduction</a></td></tr>
+      <tr><td> </td><td><a href="https://datacarpentry.org/image-processing/02-image-basics.html">Image Basics</a></td></tr>
+      <tr><td> </td><td><a href="https://datacarpentry.org/image-processing/03-skimage-images.html">Working with skimage</a></td></tr>
+      <tr><td>Afternoon</td> <td> <a href="https://datacarpentry.org/image-processing/04-drawing.html">Drawing and Bitwise Operations</a></td></tr>
+      <tr><td> </td> <td> <a href="https://datacarpentry.org/image-processing/05-creating-histograms.html">Creating Histograms</a></td></tr>
     </table>
   </div>
-	</div>
   <div class="col-md-6">
     <h3>Day 2</h3>
     <table class="table table-striped">
-      <tr> <td>Morning</td>
-        <td>
-          {% if site.flavor == "r" %}
-          <a href="https://datacarpentry.org/R-ecology-lesson/">Continuation of R: Data analysis and Visualization</a>
-          {% elsif site.flavor == "python" %}
-          <a href="https://datacarpentry.org/python-ecology-lesson/">Continuation of Python: Data analysis and Visualization</a>
-          {% else %}
-          {% include warning-flavor.html %}
-          {% endif %}
-        </td>
-      </tr>
-      <tr> <td>Afternoon</td><td><a href="https://datacarpentry.org/sql-ecology-lesson/">Data Management with SQL</a></td></tr>
-      <tr>
-	<td>Evening</td>
-	<td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
-      </tr>
-      <tr>
-	<td> </td>
-	<td> END </td>
-      </tr>
+      <tr><td>12-30</td><td><a href="https://datacarpentry.github.io/R-ecology-lesson/how-r-thinks-about-data.html">Exploring Data</a></td></tr>
+      <tr><td>12:30-2</td> <td> <a href="https://datacarpentry.github.io/R-ecology-lesson/working-with-data.html">Wrangling Data</a></td></tr>
+      <tr><td>2:15-4</td><td><a href="https://datacarpentry.github.io/R-ecology-lesson/visualizing-ggplot.html">Visualization with ggplot</a></td></tr>
     </table>
   </div>
 </div>
